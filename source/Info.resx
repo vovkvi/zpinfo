@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Должностной оклад (тарифная ставка) - размер денежной выплаты в составе зароботной платы, который выплачивается работнику за выполнение нормы труда (трудовых обязанностей) определенной сложности (квалификации) за установленное время без учёта компенсационных, стимулирующих и социальных выплат.</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Премия - одна из форм поощрения за выдающиеся результаты, достигнутые в какой-либо области деятельности либо поощрительная плата работнику за высокую квалификацию, перевыполнение норм выработки, за качество работы в дополнение к окладу. </value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Трудовой cтаж - время (продолжительность) трудовой или общественно полезной деятельности работника. Является основанием для возникновения права на пенсионное обеспечение, отпуск, получение пособия по временной нетрудоспособности, а также в ряде случаев - заработной платы.</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Надбавка за профессиональное мастерство - устанавливается работникам обладающим высокими деловыми качествами, достигшим наиболее высоких показателей производительности и качества труда, владеющим передовыми методами работы и имеющим высокий уровень профессиональной подготовки.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Классы квалификации водителей - это критерии оценки профессионального мастерства водителей. Они зависят от сложности управления транспортными средствами и опыта (стажа) работы водителя. Обязательным условием для установления водителям III, II и I класса квалификации является наличие в удостоверении водителя отметок, позволяющих управлять соответстующим транспортным средством.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Доплата за работу в ночное время - работа с 22.00 до 6.00, оплачивается в повышеном размере установленном генеральным, отраслевым соглашениями и коллективным договором, но не ниже 20% тарифной ставки (оклада). Относится к государственным нормам по оплате труда и обязательна для применения предприятиями всех форм собственности.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Выполнение работ в выходные, празднечные и нерабочие дни - привлечение к работе по выходным дням осуществляестя по письменному приказу (распоряжению) работодателя и с разрешения профсоюзного комитета предприятия. Работа в выходной день может быть компенсирована либо предоставлением другого дня отдыха, либо в денежной форме в двойном размере.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Сверхурочная работа - работа свыше установленной продолжительности рабочего дня. Т.е. необходимость завершить начатую работу которую, вследствии непредвиденных обстоятельств нельзя было окончить в нормальное рабочее время, а прекращение её может привести к порче общественного имущества. Компенсируется выплатой часовой ставки в двойном размере.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Доплата за совмещение профессий (должностей) - выполнение на том же предприятии дополнительную работу или выполнение должностных обязанностей временно отсутствующего работника без освобождения от своей основной работы.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Налог на доходы физических лиц - основной вид прямых налогов. Исчисляется в процентах от совокупного дохода физических лиц за вычетом подтвержденных расходов, в соответствии с действующим законодательством.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Страховые взносы - взнос на общеобязательное государственное страхование. Сюда входят затраты на обязательное пенсионое страхование, на социальное страхование и на обязательное медицинское страхование.</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Профсоюзные взносы - работодатель по писменному заявлению работника удерживает из зароботной платы и перечисляет на счет профсоюза профсоюзные взносы в размере и в сроки определенными коллективным договором предприятия.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Обязательства в пользу третьих лиц - обязательства, исполнение которых должник обязан произвести не кредитору (предприятию), а указанному (а иногда и не указанному) им в договоре третьему лицу, которое вправе требовать токого исполнения в свою пользу.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Задолженность работника перед субъетом хозяйствования - в данном случае погашение заолженности за счет удержаний из заработной платы для возврата авансов и излишне выплаченных сумм, возврата отпускных выданных за неотработанные дни и в порядке возмещения ущерба нанесенного субъекту хозяйствования по вине работника.</value>
+  </data>
+</root>
